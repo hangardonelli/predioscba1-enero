@@ -1,0 +1,25 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sanjua.predios",
+      "sha256_cert_fingerprints":
+      ["65:A1:69:CE:AF:55:05:C9:37:8D:39:E0:50:10:67:A6:75:B9:2C:7C:8D:24:B3:A9:F2:BD:D5:D5:17:1B:F9:7B"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://fc-cba.com"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sanjua.predios",
+      "sha256_cert_fingerprints":
+      ["65:A1:69:CE:AF:55:05:C9:37:8D:39:E0:50:10:67:A6:75:B9:2C:7C:8D:24:B3:A9:F2:BD:D5:D5:17:1B:F9:7B"]
+    }
+  }]
