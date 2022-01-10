@@ -253,6 +253,7 @@ const Home = () => {
                         <tr>
                           <th></th>
                           <th> Dia </th>
+                          <th> Hora </th>
                           <th> Jugadores </th>
                           <th> Cesped </th>
                           <th> Hora </th>
@@ -264,6 +265,7 @@ const Home = () => {
                           <tr key={p}>
                             <td className="font-weight-medium">{p + 1}</td>
                             <td> {turnoItem.day} </td>
+                            <td> {turnoItem.hour} </td>
                             <td> {turnoItem.label} </td>
                             <td> {turnoItem.typeCourt} </td>
                             <td> {turnoItem.hour} </td>
