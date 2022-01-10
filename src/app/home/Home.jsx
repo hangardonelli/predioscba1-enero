@@ -263,7 +263,7 @@ const Home = () => {
                         {listTurnos.map((turnoItem, p) => (
                           <tr key={p}>
                             <td className="font-weight-medium">{p + 1}</td>
-                            <td> {turnoItem.date} </td>
+                            <td> {turnoItem.day} </td>
                             <td> {turnoItem.label} </td>
                             <td> {turnoItem.typeCourt} </td>
                             <td> {turnoItem.hour} </td>
