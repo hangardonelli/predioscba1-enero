@@ -78,6 +78,9 @@ const Turnos = () => {
                       <th> Hora </th>
                       <th> Estado </th>
                       <th> Día </th>
+                      <th> Nombre </th>
+                      <th> Mail </th>
+                      <th> Teléfono </th>
                       <th> Código </th>
                       <th> </th>
                     </tr>
@@ -95,7 +98,11 @@ const Turnos = () => {
                           )} 
                         </td>
                         <td> {turnoItem.day} </td>
+                        <td> {turnoItem.profile[0].firstName +  " " + turnoItem.profile[0].lastName} </td>         
+                        <td> {turnoItem.email} </td>
+                        <td> {turnoItem.profile[0].phone} </td>
                         <td> {turnoItem.code} </td>
+              
                         <td>
                           {!turnoItem.status && 
                           <button 
